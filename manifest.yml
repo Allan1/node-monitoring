@@ -1,0 +1,7 @@
+---
+applications:
+  timeout: 180
+  name: NodeMicroserviceYo
+  buildpack: sdk-for-nodejs
+  command: npm start
+  random-route: true
